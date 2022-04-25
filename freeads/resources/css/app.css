@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.background-image {
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/10/19/11/los-angeles-1584089_960_720.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
